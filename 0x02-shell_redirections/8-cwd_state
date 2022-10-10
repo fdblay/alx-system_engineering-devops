@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "displays long list of all of a directory contents" > ls_cwd_content
+ls -la > ls_cwd_content
