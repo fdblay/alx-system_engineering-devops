@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "displays the list of files in a directory including hidden files" > ls_cwd_content
