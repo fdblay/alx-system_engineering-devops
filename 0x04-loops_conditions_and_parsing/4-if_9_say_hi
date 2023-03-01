@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script uses while loop and if conditioner to display
+# "Best School" and on the 9th iteration, displays
+# "Best School" and "Hi" on a newline.
+
+count=0
+while [ $count -le 9 ]
+do
+    echo "Best School"
+    if [ $count -eq 8 ]
+    then
+            echo "Hi"
+    fi
+    ((count++))
+done
