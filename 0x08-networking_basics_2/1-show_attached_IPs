@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script displays all active ipv4 IPs on this machine
+
+# saving the ip addresses
+ip_address=$(hostname -I)
+
+echo "LIST OF ACTIVE IP ADDRESSES"
+for ip in "${ip_address[@]}"
+do
+	echo "$ip"
+done
