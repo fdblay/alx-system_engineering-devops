@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 # This script displays its own PID
 
-my_pid=$$
-for i in $my_pid
-do
-	echo "$my_pid"
-done
+echo "$$"
